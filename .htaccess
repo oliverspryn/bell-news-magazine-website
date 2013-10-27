@@ -1,0 +1,13 @@
+<Files ~ "\.(php)$">
+	order allow,deny
+	allow from all
+</Files>
+<Files ~ "\.(htaccess)$">
+	order deny,allow
+	deny from all
+</Files>
+
+#ErrorDocument 403 /includes/access_deny.php?error=403
+#ErrorDocument 404 /includes/access_deny.php?error=404
+
+AddType application/x-httpd-php54 .php

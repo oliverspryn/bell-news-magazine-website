@@ -1,0 +1,9 @@
+<Files ~ "\.(php)$">
+	order allow,deny
+	allow from all
+</Files>
+<Files ~ "\.(js)$">
+	order allow,deny
+	allow from all
+</Files>
+deny from all

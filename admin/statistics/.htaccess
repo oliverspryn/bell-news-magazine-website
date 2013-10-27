@@ -1,0 +1,8 @@
+<Files ~ "\.(swf)$">
+	order allow,deny
+	allow from all
+</Files>
+deny from all
+
+ErrorDocument 403 /biomed-ed/includes/access_deny.php?error=403
+ErrorDocument 404 /biomed-ed/includes/access_deny.php?error=404

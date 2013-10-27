@@ -1,0 +1,21 @@
+<Files ~ "\.(png)$">
+	order allow,deny
+	allow from all
+</Files>
+<Files ~ "\.(jpg)$">
+	order allow,deny
+	allow from all
+</Files>
+<Files ~ "\.(gif)$">
+	order allow,deny
+	allow from all
+</Files>
+<Files ~ "\.(bmp)$">
+	order allow,deny
+	allow from all
+</Files>
+<Files ~ "\.(ico)$">
+	order allow,deny
+	allow from all
+</Files>
+deny from all
